@@ -1,3 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Poppins:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+
+h2,a {
+  font-family: "Poppins";
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
 h1 {
-    color: brown;
+  font-family: "Gloria Hallelujah";
+}
+
+
+p {
+  font-family: "Poppins";  
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: grey;
+  height:65vh;
+  background-image: url(https://images.unsplash.com/photo-1588420343624-8b15ebd3573d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1000&q=80);
+  background-size: cover;
+}
+
+#wave{
+  position: absolute;
+  bottom: -1px;
+  object-fit: cover;
+  width: 100%;
 }

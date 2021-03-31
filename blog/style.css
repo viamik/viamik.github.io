@@ -1,3 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Montserrat:wght@300;400;700&display=swap');
+
+body{
+  margin: 0px;
+  background-color: #0000;
+  font-family: "Montserrat";
+
+}
+
 h1 {
-    color: brown;
+  font-family: "Aclonica";
+  color: white;
+}
+
+h2, h3, h4, h5{
+  font-family: "Montserrat";
+  color: #8C7669;
+}
+
+p {
+  font-family: "Montserrat";
+  color: #8C7669;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: grey;
+  height:65vh;
+  background-image: url(https://images.unsplash.com/photo-1591130220107-ef416e7c9b8f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=633&q=80);
+  background-size: cover;
+}
+
+#wave{
+  position: absolute;
+  bottom: -1px;
+  object-fit: cover;
+  width: 100%;
+}
+
+
+.card {
+  margin: 90px 0px;
+  padding: 90px;
+  border-radius: 96px;
+  background-color:#fcf8ec;
+  
+}
+
+.card:hover{
+  box-shadow: 11px 13px 0px rgb(0 0 0 / 10%);
+}
+
+.center{
+  text-align: center;
+}
+
+.container {
+  margin: 50px;
+  padding: 50px;
+  border-radius: 16px;
+}
+
+.white {
+  color:white;
+}
+
+#photo { 
+  border-radius: 50px;
+  width: 600px;
+  height: 500px;
 }
